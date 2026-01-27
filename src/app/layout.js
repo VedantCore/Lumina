@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lumina | AI Second Brain",
-  description: "Your second brain, supercharged.",
+  title: "Lumina - AI-Powered Second Brain",
+  description: "Transform how you capture, organize, and rediscover knowledge with AI.",
 };
 
 export default function RootLayout({ children }) {

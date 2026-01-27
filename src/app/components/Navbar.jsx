@@ -26,8 +26,8 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(79,70,229,0.5)]">
-          Get Started
+        <button className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(79,70,229,0.5)] hover:shadow-[0_0_30px_-5px_rgba(79,70,229,0.8)]">
+         Get Started
         </button>
       </div>
     </motion.nav>
