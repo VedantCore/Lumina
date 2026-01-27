@@ -6,6 +6,7 @@ import Testimonials from '@/app/components/Testimonials';
 import Pricing from '@/app/components/Pricing';
 import FAQ from '@/app/components/FAQ';
 import Footer from '@/app/components/Footer';
+import CTASection from '@/app/components/CTASection';
 
 export default function Home() {
   return (
@@ -15,9 +16,13 @@ export default function Home() {
       <div className="relative z-10">
         <InteractiveDemo />
         <Features />
-        <Testimonials /> {/* <--- Add this here */}
+        <Testimonials />
         <Pricing />
         <FAQ />
+
+        {/* 👇 ADD CTA SECTION HERE */}
+        <CTASection />
+
       </div>
       <Footer />
     </main>
