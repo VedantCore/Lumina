@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
   const ref = useRef(null);
@@ -39,9 +40,9 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 bg-white text-slate-950 rounded-lg font-semibold hover:bg-slate-200 transition-all shadow-lg shadow-white/20">
+            <Link href="/auth" className="px-8 py-4 bg-white text-slate-950 rounded-lg font-semibold hover:bg-slate-200 transition-all shadow-lg shadow-white/20">
               Start Free Trial
-            </button>
+            </Link>
             <button className="px-8 py-4 bg-slate-800 text-white rounded-lg font-semibold hover:bg-slate-700 transition-all border border-slate-700">
               Watch Demo
             </button>

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import Link from 'next/link';
 
 export default function CTASection() {
     return (
@@ -52,10 +53,10 @@ export default function CTASection() {
                     transition={{ delay: 0.4 }}
                     className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4"
                 >
-                    <button className="group px-8 py-4 bg-white text-slate-950 rounded-lg font-semibold hover:bg-slate-200 transition-all shadow-lg shadow-white/20 flex items-center gap-2">
+                    <Link href="/auth" className="group px-8 py-4 bg-white text-slate-950 rounded-lg font-semibold hover:bg-slate-200 transition-all shadow-lg shadow-white/20 flex items-center gap-2">
                         Start Free Trial
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    </Link>
 
                     <button className="px-8 py-4 bg-transparent border border-slate-700 text-white rounded-lg font-semibold hover:bg-slate-800 transition-all">
                         Talk to Sales
