@@ -43,9 +43,9 @@ export default function Hero() {
             <Link href="/auth" className="px-8 py-4 bg-white text-slate-950 rounded-lg font-semibold hover:bg-slate-200 transition-all shadow-lg shadow-white/20">
               Start Free Trial
             </Link>
-            <button className="px-8 py-4 bg-slate-800 text-white rounded-lg font-semibold hover:bg-slate-700 transition-all border border-slate-700">
+            <Link href="#demo" className="px-8 py-4 bg-slate-800 text-white rounded-lg font-semibold hover:bg-slate-700 transition-all border border-slate-700">
               Watch Demo
-            </button>
+            </Link>
           </div>
         </motion.div>
       </motion.div>

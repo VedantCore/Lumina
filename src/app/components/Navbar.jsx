@@ -22,13 +22,13 @@ export default function Navbar() {
         <div className="hidden md:flex gap-6 text-sm text-slate-400 font-medium">
           <Link href="#features" className="hover:text-white transition-colors">Features</Link>
           <Link href="#demo" className="hover:text-white transition-colors">Demo</Link>
-          <Link href="#pricing" className="hover:text-white transition-colors">Pricing</Link>
+          <Link href="/#pricing" className="hover:text-white transition-colors">Pricing</Link>
         </div>
 
         {/* CTA Button */}
-        <button className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(79,70,229,0.5)] hover:shadow-[0_0_30px_-5px_rgba(79,70,229,0.8)]">
+        <Link href="/auth" className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(79,70,229,0.5)] hover:shadow-[0_0_30px_-5px_rgba(79,70,229,0.8)]">
          Get Started
-        </button>
+        </Link>
       </div>
     </motion.nav>
   );
