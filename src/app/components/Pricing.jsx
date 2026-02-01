@@ -13,7 +13,7 @@ export default function Pricing() {
         <h2 className="text-4xl font-bold text-center mb-12">Simple Pricing</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {tiers.map((tier) => (
-            <div key={tier.name} className={`relative rounded-2xl p-8 border ${tier.featured ? 'border-indigo-500 bg-slate-900/50' : 'border-slate-800 bg-slate-950'} flex flex-col`}>
+            <div key={tier.name} className={`relative rounded-2xl p-8 glass-card flex flex-col transition-all hover:scale-105 ${tier.featured ? 'border-indigo-500/50 shadow-2xl shadow-indigo-500/20' : 'hover:border-slate-600'}`}>
               {tier.featured && <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-500 text-white px-3 py-1 text-xs rounded-full">Most Popular</span>}
               <h3 className="text-lg font-medium text-slate-400">{tier.name}</h3>
               <div className="text-4xl font-bold mt-2 mb-6">{tier.price}</div>

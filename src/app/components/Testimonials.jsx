@@ -81,7 +81,7 @@ export default function Testimonials() {
           {[...testimonials, ...testimonials, ...testimonials].map((t, i) => (
             <div 
               key={i} 
-              className="w-[350px] md:w-[450px] bg-slate-900/50 border border-slate-800 rounded-2xl p-8 flex-shrink-0 backdrop-blur-sm hover:border-indigo-500/30 transition-colors"
+              className="w-[350px] md:w-[450px] glass-card rounded-2xl p-8 flex-shrink-0 hover:border-indigo-500/30 transition-colors"
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">

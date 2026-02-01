@@ -13,7 +13,7 @@ export default function InteractiveDemo() {
 
   return (
     <section id="demo" className="py-24 px-4 flex justify-center bg-slate-950">
-      <div className="w-full max-w-4xl border border-slate-800 bg-slate-900/50 rounded-2xl p-8 backdrop-blur-sm relative overflow-hidden">
+      <div className="w-full max-w-4xl glass-panel rounded-2xl p-8 relative overflow-hidden">
         
         {/* Glow Effect */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-2 bg-gradient-to-r from-transparent via-indigo-500 to-transparent opacity-50 blur-sm" />
